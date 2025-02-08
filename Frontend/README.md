@@ -1,3 +1,25 @@
+Hello this Naveen Kumar Bushi, as part of Assignment i have got Zysk Technologies Private Limited, this git repository contains code of that assignment.
+
+The application resposive at 375px break point.
+
+Here is the **versel** deployment link
+https://zysk-react-assignment-lkesbdzhv-bushinaveenkumars-projects.vercel.app/
+
+Please provide your reply in mail, 
+
+Thank You
+
+
+
+
+
+
+
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
