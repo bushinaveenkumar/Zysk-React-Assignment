@@ -1,0 +1,115 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    background-color: #f5f5f5;
+    margin-top:25px;
+    font-family: Roboto;
+    background: white;
+    overflow: scroll;
+  }
+  
+.checkout-button-container{
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 33px;
+    border:1px solid #D42727;
+    color: #D42727;
+    outline: none;
+    background: white;
+    border-radius: 14px;
+    gap:10px;
+    padding:6px 6px;
+    cursor: pointer;
+}
+.title{
+    font-size: 25px;
+}
+.NF-para{
+    width: auto;
+    border:1px solid #D42727;
+    color: #D42727;
+    outline: none;
+    padding:3px 3px;
+    border-radius: 9px;
+}
+.test_skills-img{
+    width:780px;
+    height:320px;
+    margin-top: 20px;
+}
+
+  
+  .sign-up {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+  }
+
+  .buttons{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .demo-btn{
+    width:95px;
+    height: auto;
+    border: 1px solid black;
+    padding: 11px 15px;
+    background: white;
+    border-radius: 15px;
+    outline: none;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .sign-up-btn{
+    width:95px;
+    height: auto;
+    border: 1px solid ;
+    padding: 11px 15px;
+    background: #D42727;
+    border-radius: 15px;
+    outline: none;
+    color: grey;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  
+  @media(max-width:375px){
+    .test_skills-img{
+        width:320px;
+    height:120px;
+    margin-top: 10px;
+    }
+}
+
+@media(max-width:375px){
+    .checkout-button-container{
+        max-width: 370px;
+        font-size: 10px;
+        
+    }
+    .NF-para{
+        max-width: 50px;
+        font-size: 8px;
+        border-radius: 5px;
+    }
+    .title {
+        font-size: 16px;
+    }
+    .test_skills-img{
+        width:350px;
+        height:150px;
+    }
+  }

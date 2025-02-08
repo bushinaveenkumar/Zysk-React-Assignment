@@ -1,0 +1,67 @@
+.nav-bar{        
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 28px;
+    background: cover;
+}
+
+
+.logo-and-links{
+    display:flex;
+    align-items: center;
+    margin: 5px 0px;
+}
+.company-name{
+    color: #D42727;
+    font-size: 42px;
+    font-weight: 800;
+}
+
+.nav-links{
+    display: flex;
+    margin-left: 60px;
+    font-family: Roboto;
+    gap:25px;
+    color: black;
+    list-style-type: none;
+    font-weight: 400;
+    margin-top: 25px;
+}
+.link_item{
+    font-size: 17px;
+    margin-top: 7px;
+}
+.dropdown{
+    padding: 8px;
+   font-size: medium;
+   border: none;
+}
+
+.user-profile-img{
+    width:30px;
+    height:30px;
+}
+.Responsive-image{
+    background-image: url('../../assets/profile.png');
+    background-size: cover;
+    background-position: center;
+    width:30px;
+    height:30px;
+    cursor: pointer;
+}
+@media(max-width:375px){
+    .Responsive-image{
+        background-image: url('../../assets/menu.png');
+    }
+}
+
+
+@media(max-width:375px){
+    .nav-bar{
+        padding:0px 18px;
+    }
+    .nav-links{
+        display: none;
+    }
+}
